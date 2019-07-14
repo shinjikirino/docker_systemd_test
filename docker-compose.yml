@@ -1,0 +1,10 @@
+version: '2'
+services:
+  systemd_test:
+    build: .
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    cap_add:
+      - SYS_ADMIN
+    security_opt:
+      - seccomp:unconfined
