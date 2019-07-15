@@ -1,4 +1,4 @@
-# systemd_test
+# docker_systemd_test
 ## Environment
 ```
 [CPU]
@@ -38,4 +38,8 @@ root@XXXXXXXXXXXX:/# systemctl status
 ● 052899b20ae4
     State: running
 ...
+root@XXXXXXXXXXXX:/# systemctl --version
+systemd 229
++PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN
 ```
+
