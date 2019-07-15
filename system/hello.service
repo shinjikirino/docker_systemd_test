@@ -1,0 +1,9 @@
+[Unit]
+Description="Hello"
+
+[Service]
+ExecStart=/bin/echo "Hello"
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
